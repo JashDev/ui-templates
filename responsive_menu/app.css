@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1em;
+  background-image: url("https://scx2.b-cdn.net/gfx/news/hires/2018/darkenergy.jpg");
+  background-size: cover;
+  font-family: "Times New Roman", Times, serif;
+  overflow-x: hidden;
+}
+
+.content {
+  width: 100vw;
+  height: 200vh;
+  /* border: 1px solid red; */
+}
+
+.side-menu {
+  /* border: 1px solid blue; */
+  width: 15em;
+  /* height: 100%; */
+  /* margin: 4em auto 0; */
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  line-height: 2em;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -11em;
+}
+
+.side-menu ul {
+  width: 100%;
+  /* border: 1px solid green; */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.side-menu ul li {
+  /* border: 1px solid red; */
+  display: block;
+  background-color: #333;
+  height: 4em;
+  padding: 1em 1.5em;
+  position: relative;
+  transition: transform 0.5s, background-color 0.5s, color 0.5s;
+}
+
+.side-menu ul li:nth-child(1) {
+  background-color: #00aced;
+}
+
+.side-menu ul li:nth-child(2) {
+  background-color: #3b5998;
+}
+
+.side-menu ul li:nth-child(3) {
+  background-color: #00a300;
+}
+
+.side-menu ul li:nth-child(4) {
+  background-color: #1e7145;
+}
+
+.side-menu ul li:nth-child(5) {
+  background-color: #ffc40d;
+}
+
+.side-menu ul li:nth-child(6) {
+  background-color: #cb2027;
+}
+
+.side-menu ul li:hover {
+  background-color: #339966;
+  transform: translateX(11em);
+}
+
+.side-menu ul li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+.side-menu ul li span {
+  display: block;
+  position: absolute;
+  font-size: 1.2em;
+  /* line-height: 2em; */
+  height: 2em;
+  top: 0;
+  margin: 0 auto;
+  padding: 1em 1.5em;
+  right: -0.3em;
+  color: #f8f6ff;
+}
